@@ -1,8 +1,8 @@
-const teamsData = [
+const cityCorporationsData = [
     {}
 ];
 
-function teamTemplate(team) {
+function cityCorporationTemplate(cityCorporation) {
     return `
     <!-- city-corporation -->
     <div class="col-md-4">
@@ -103,8 +103,8 @@ function teamTemplate(team) {
 }
 
 
-document.getElementById("team").innerHTML = `
-    ${teamsData.map(teamTemplate).join("")}
+document.getElementById("cityCorporation").innerHTML = `
+    ${cityCorporationsData.map(cityCorporationTemplate).join("")}
   `;
 
-{/* <a href="tel:${team.ourNumber}"><i class="fas fa-ellipsis-v"></i></a> */}
+{/* <a href="tel:${cityCorporation.ourNumber}"><i class="fas fa-ellipsis-v"></i></a> */}
