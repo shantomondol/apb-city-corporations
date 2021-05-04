@@ -223,14 +223,18 @@ footer ul li a {
 }
 
 /*======================================
-*            Team Card               *
+*           city-corporation          *
 ======================================*/
 h1 {
     text-align: center;
     margin: 15px 0 40px 0;
 }
 
-.team-card {
+.city-corporation h2 {
+    font-size: 1.8rem;
+}
+
+.city-corporation {
     background-color: #F8FFFB;
     text-align: center;
     border-radius: 20px;
@@ -239,7 +243,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.team-card:hover {
+.city-corporation:hover {
     background-color: #F0FFF0;
     cursor: pointer;
     
@@ -251,29 +255,11 @@ h1 {
     border-radius: 20px;
 }
 
-.team-img {
+.city-corporation-img {
     width: 100px;
     height: 100px;
     margin-bottom: 20px;
 }
 .text-center {
     font-size: 1.1em;
-}
-
-.team .fas,
-.team .fab {
-    font-size: 22px;
-    letter-spacing: 10px;
-}
-
-.team .fa-phone-square-alt {
-    color: #21b573;
-}
-
-.team .fa-facebook-square {
-    color: #3b5998;
-}
-
-.team .fa-envelope {
-    color: #43443d;
 }
